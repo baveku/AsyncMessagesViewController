@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc          = true  
   spec.source_files          = 'Source/**/*.swift'
   spec.ios.resource_bundle   = { spec => 'Source/Assets/AsyncMessagesViewController.xcassets' }
-  spec.dependency            'Texture', '2.6'
+  spec.dependency            'Texture'
   spec.dependency            'SlackTextViewController', '1.9.6'
 end
